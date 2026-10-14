@@ -1,0 +1,47 @@
+name: Signaler un bug · Report a bug
+description: Quelque chose ne fonctionne pas comme prévu · Something doesn't work as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de prendre le temps de signaler ce problème ! · Thanks for taking the time to report this!
+        Ne joignez jamais vos sauvegardes ni vos identifiants. · Never attach your saves or your credentials.
+  - type: input
+    id: version
+    attributes:
+      label: Version de Wolven Forge · Wolven Forge version
+      description: Paramètres › À propos · Settings › About Wolven Forge
+    validations:
+      required: true
+  - type: input
+    id: game
+    attributes:
+      label: Version du jeu · Game version
+      description: Affichée dans le menu du jeu · Shown in the game's menu
+      placeholder: 5.01 (Steam)
+  - type: textarea
+    id: what
+    attributes:
+      label: Que s'est-il passé ? · What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Étapes pour reproduire · Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+  - type: textarea
+    id: expected
+    attributes:
+      label: Résultat attendu · Expected result
+  - type: textarea
+    id: diagnostic
+    attributes:
+      label: Export de diagnostic (facultatif) · Diagnostic export (optional)
+      description: |
+        Glissez ici le fichier enregistré avec « Exporter le diagnostic… » (espace Diagnostic). Il est expurgé par défaut et ne contient jamais vos sauvegardes.
+        Drop the file saved with "Export diagnostics…" (Diagnostics workspace) here. It's redacted by default and never contains your saves.
