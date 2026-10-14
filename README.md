@@ -53,6 +53,4 @@ Want to fix a bug or contribute code? Open a **Join the project** request descri
 
 Wolven Forge is provided as is, without warranty. It's an unofficial fan project, not affiliated with CD PROJEKT RED.
 
----
-
 © 2026 Zephyr3472
