@@ -27,7 +27,7 @@ Vous voulez corriger un bug ou contribuer au code ? Ouvrez une demande **Partici
 
 ### Bon à savoir
 
-Wolven Forge est fourni tel quel, sans garantie. C'est un projet de fan non officiel, sans lien avec CD PROJEKT RED.
+Wolven Forge est fourni tel quel, sans garantie. C'est un projet de fan non officiel, ni approuvé ni soutenu par CD PROJEKT RED.
 
 ## English
 
@@ -36,7 +36,7 @@ This repository is Wolven Forge's point of contact. The software's source code i
 ### Report a bug
 
 1. Open the **Issues** tab, click **New issue** and choose **Report a bug**.
-2. Give your Wolven Forge version (Settings › About Wolven Forge) and describe what you were doing.
+2. Give your Wolven Forge version (Settings › About) and describe what you were doing.
 3. If you can, attach the diagnostic export: **Export diagnostics…** button in the Diagnostics workspace. It's redacted by default (personal paths and user name replaced) and never contains your saves, your mods' content or your launcher account. Nothing is sent automatically: you choose whether to share it.
 
 Never attach your saves or your credentials.
@@ -51,6 +51,6 @@ Want to fix a bug or contribute code? Open a **Join the project** request descri
 
 ### Good to know
 
-Wolven Forge is provided as is, without warranty. It's an unofficial fan project, not affiliated with CD PROJEKT RED.
+Wolven Forge is provided as is, without warranty. It's an unofficial fan project, not approved or endorsed by CD PROJEKT RED.
 
 © 2026 Zephyr3472

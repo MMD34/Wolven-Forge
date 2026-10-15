@@ -11,7 +11,7 @@ body:
     id: version
     attributes:
       label: Version de Wolven Forge · Wolven Forge version
-      description: Paramètres › À propos · Settings › About Wolven Forge
+      description: Paramètres › À propos · Settings › About
     validations:
       required: true
   - type: input
