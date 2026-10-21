@@ -2,6 +2,8 @@
 
 Mod manager for *The Witcher 3: Wild Hunt*: bug reports, ideas and contact.
 
+**Download:** [Wolven Forge on Nexus Mods](https://www.nexusmods.com/witcher3/mods/14154)
+
 This repository is Wolven Forge's point of contact. The source code of the software isn't public: this is where bug reports, suggestions and requests to join the project live.
 
 ## Report a bug
