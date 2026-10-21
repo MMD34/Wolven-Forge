@@ -1,35 +1,41 @@
-name: Signaler un bug · Report a bug
-description: Quelque chose ne fonctionne pas comme prévu · Something doesn't work as expected
+name: Report a bug
+description: Something doesn't work as expected
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Merci de prendre le temps de signaler ce problème ! · Thanks for taking the time to report this!
-        Ne joignez jamais vos sauvegardes ni vos identifiants. · Never attach your saves or your credentials.
+        Thanks for taking the time to report this!
+        Please never attach your saves or any credentials.
   - type: input
     id: version
     attributes:
-      label: Version de Wolven Forge · Wolven Forge version
-      description: Paramètres › À propos · Settings › About
+      label: Wolven Forge version
+      description: Settings › About
+      placeholder: "1.0.0"
     validations:
       required: true
   - type: input
     id: game
     attributes:
-      label: Version du jeu · Game version
-      description: Affichée dans le menu du jeu · Shown in the game's menu
-      placeholder: 5.01 (Steam)
+      label: Game version
+      description: Shown in the game's main menu
+      placeholder: "5.01 (Steam)"
+  - type: textarea
+    id: mods
+    attributes:
+      label: Mods involved
+      description: The mods you were installing, merging or removing, ideally with a link to their Nexus page.
   - type: textarea
     id: what
     attributes:
-      label: Que s'est-il passé ? · What happened?
+      label: What happened?
     validations:
       required: true
   - type: textarea
     id: steps
     attributes:
-      label: Étapes pour reproduire · Steps to reproduce
+      label: Steps to reproduce
       placeholder: |
         1.
         2.
@@ -37,11 +43,9 @@ body:
   - type: textarea
     id: expected
     attributes:
-      label: Résultat attendu · Expected result
+      label: Expected result
   - type: textarea
     id: diagnostic
     attributes:
-      label: Export de diagnostic (facultatif) · Diagnostic export (optional)
-      description: |
-        Glissez ici le fichier enregistré avec « Exporter le diagnostic… » (espace Diagnostic). Il est expurgé par défaut et ne contient jamais vos sauvegardes.
-        Drop the file saved with "Export diagnostics…" (Diagnostics workspace) here. It's redacted by default and never contains your saves.
+      label: Diagnostic file (optional)
+      description: Drop the file saved with "Export diagnostics…" (Diagnostics workspace) here. It's redacted by default and never contains your saves.

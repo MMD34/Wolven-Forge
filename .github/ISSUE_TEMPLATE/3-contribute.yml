@@ -1,0 +1,19 @@
+name: Join the project
+description: Fix a bug or contribute code
+labels: ["contribution"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest! Access to the code is granted case by case. By sending a contribution, you agree that it may be included in Wolven Forge.
+  - type: textarea
+    id: plan
+    attributes:
+      label: What you'd like to do
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: Your experience (optional)
+      description: Rust, TypeScript, The Witcher 3 modding…

@@ -1,0 +1,15 @@
+name: Suggest an idea
+description: A feature that would help you
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: When would it help you?
+      description: The situation you were in, the mods involved, what you had to do instead.
